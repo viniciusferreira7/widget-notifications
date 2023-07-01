@@ -1,4 +1,4 @@
-import { Rocket } from 'lucide-react'
+import { Check, X, Rocket } from 'lucide-react'
 
 export function Widget() {
   return (
@@ -36,6 +36,14 @@ export function Widget() {
                 <span>Convite</span>
                 <span>Há 3 minutos</span>
               </div>
+            </div>
+            <div className="flex gap-2 self-center">
+              <button className="w-8 h-8 grid place-items-center rounded bg-zinc-800 hover:bg-zinc-700">
+                <X className="w-3 h-3 text-zinc-50" />
+              </button>
+              <button className="w-8 h-8 grid place-items-center rounded bg-violet-500 hover:bg-violet-700">
+                <Check className="w-3 h-3 text-zinc-50" />
+              </button>
             </div>
           </div>
         </div>
