@@ -1,5 +1,0 @@
-export function Widget() {
-  return (
-    
-  )
-}

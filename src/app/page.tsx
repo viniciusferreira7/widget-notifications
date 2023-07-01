@@ -1,6 +1,8 @@
-import { Widget } from './components/Widget';
+import { Widget } from './componets/Widget';
 
 export default function Home() {
 
-  return <Widget />
+  return <main className='bg-black text-zinc-50 h-screen grid place-items-center'>
+    <Widget />
+  </main>
 }
