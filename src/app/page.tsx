@@ -1,4 +1,4 @@
-import { Widget } from './componets/Widget'
+import { Widget } from './components/Widget'
 
 export default function Home() {
   return (
