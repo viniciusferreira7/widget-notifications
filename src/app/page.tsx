@@ -1,8 +1,9 @@
-import { Widget } from './componets/Widget';
+import { Widget } from './componets/Widget'
 
 export default function Home() {
-
-  return <main className='bg-black text-zinc-50 h-screen grid place-items-center'>
-    <Widget />
-  </main>
+  return (
+    <main className="bg-zinc-50 dark:bg-black text-zinc-800 dark:text-zinc-50 h-screen grid place-items-center">
+      <Widget />
+    </main>
+  )
 }
